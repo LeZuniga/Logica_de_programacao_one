@@ -8,10 +8,11 @@
 <script>
     var segredo = Math.round(Math.random() * 10);
     var input = document.querySelector("input");
+    input.focus();
 
     function verifica() {
         if (input.value == segredo) {
-            alert("Acertou miseravi!");
+            alert("Acertou, miseravi!");
         } else {
             alert("Errou, miseravi!");
         }
